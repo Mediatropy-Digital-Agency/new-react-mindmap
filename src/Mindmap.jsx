@@ -17,7 +17,7 @@ import {
 
 import '../sass/main.sass';
 
-export default class MyReactCompoennt extends Component {
+export default class MindMap extends Component {
   constructor(props) {
     super(props);
     this.state = {

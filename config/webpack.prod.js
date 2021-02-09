@@ -10,6 +10,8 @@ module.exports = merge(common, {
   mode: 'production',
   devtool: false,
   output: {
+    library: 'new-react-mindmap',
+    libraryTarget: 'umd',
     path: paths.build,
     publicPath: '/',
     filename: './[name].js',

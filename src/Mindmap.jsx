@@ -14,6 +14,9 @@ import {
   zoom,
   zoomIdentity
 } from "d3";
+
+import '../sass/main.sass';
+
 export default class MyReactCompoennt extends Component {
   constructor(props) {
     super(props);

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Rebuild modern port of vue-mindmap to React",
   "main": "dist/main.js",
-  "author": "Tania Rascia",
+  "author": "Scott Yeung",
   "license": "MIT",
   "files": [
     "dist",

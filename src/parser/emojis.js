@@ -36,7 +36,7 @@ Object.keys(conversionTable).forEach((key) => {
  * Return an emoji as a GitHub image.
  */
 const emojiTemplate = (unicode, category) => (
-  `<img class="mindmap-emoji" title="${category}" src="https://assets-cdn.github.com/images/icons/emoji/unicode/${unicode}.png">`
+  `<img class="mindmap-emoji" title="${category}" src="https://openmoji.org/php/download_from_github.php?emoji_hexcode=${unicode}&emoji_variant=color">`
 )
 
 const customEmojiTemplate = (emoji, category) => (

@@ -126,6 +126,7 @@ export default class MindMap extends Component {
 
   componentDidMount() {
     this.renderMap();
+    this.props.callback();
   }
 
   componentDidUpdate() {
@@ -148,10 +149,12 @@ MindMap.defaultProps = {
   nodes: [],
   connections: [],
   editable: false,
+  callback: () => {}
 };
 
 MindMap.propTypes = {
   nodes: PropTypes.array,
   connections: PropTypes.array,
   editable: PropTypes.bool,
+  callback: PropTypes.func,
 };
